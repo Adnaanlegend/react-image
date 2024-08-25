@@ -14,7 +14,7 @@ const App = () => {
   return (
     <>
       <Canvas camera={{ fov: 35 }}>
-        {/* <OrbitControls /> */}
+        <OrbitControls />
         <ambientLight />
         <Cyl />
         <EffectComposer>
